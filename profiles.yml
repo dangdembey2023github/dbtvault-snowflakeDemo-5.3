@@ -1,0 +1,13 @@
+dbtvault_snowflake_demo:
+  outputs:
+    dev:
+      account: dh03614.west-us-2.azure
+      database: ANALYTICS
+      password: AngdembeyDhana2023
+      role: ACCOUNTADMIN
+      schema: transforming
+      threads: 1
+      type: snowflake
+      user: dhanaangdembey
+      warehouse: COMPUTE_WH
+  target: dev
