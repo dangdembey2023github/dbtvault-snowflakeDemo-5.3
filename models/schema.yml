@@ -1,13 +1,15 @@
 version: 2
 
 sources:
-  - name: jaffle_shop
-    database: raw  
-    schema: jaffle_shop  
+  - name: tpch_sample
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF{{ var('tpch_size', 10) }}
     tables:
-      - name: orders
-      - name: customers
-
-  - name: stripe
-    tables:
-      - name: payments
+      - name: LINEITEM
+      - name: CUSTOMER
+      - name: ORDERS
+      - name: PARTSUPP
+      - name: SUPPLIER
+      - name: PART
+      - name: NATION
+      - name: REGION   
