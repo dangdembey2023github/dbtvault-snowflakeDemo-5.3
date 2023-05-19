@@ -25,3 +25,4 @@ hashed_columns:
                   derived_columns=derived_columns,
                   hashed_columns=hashed_columns,
                   ranked_columns=none) }}
+{# simple change for slim ci job test ..#}
