@@ -1,4 +1,4 @@
---new modify to test slim CI job test
+--Modify to test slim CI job test
 SELECT
     a.L_ORDERKEY AS ORDERKEY,
     a.L_PARTKEY AS PARTKEY ,
